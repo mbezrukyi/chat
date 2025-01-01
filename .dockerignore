@@ -1,0 +1,16 @@
+# Environment
+env/
+
+# Cache
+__pycache__
+
+# IDE
+.idea/
+
+# Build
+build/
+*.egg-info/
+
+# GIT
+.git/
+.gitignore
