@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chat"
+version = "0.0.1"
+requires-python = ">=3.8"
+authors = [
+    {name = "Mykola Bezrukyi", email = "kolya.bezrukiy.03@gmail.com"},
+]
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+run = "chat.main:main"
