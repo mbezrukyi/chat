@@ -32,4 +32,4 @@ WORKDIR $WORKDIR
 
 COPY --from=build $VIRTUALENV $VIRTUALENV
 
-CMD ["run"]
+CMD server & client

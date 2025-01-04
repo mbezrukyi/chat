@@ -16,4 +16,5 @@ license = {file = "LICENSE"}
 where = ["src"]
 
 [project.scripts]
-run = "chat.main:main"
+server = "chat.server:run"
+client = "chat.client:run"
